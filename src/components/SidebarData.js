@@ -1,41 +1,36 @@
-import React from 'react'
-import * as FaIcons from "react-icons/fa"
-import * as AiIcons from "react-icons/ai"
-
-import * as IoIcons from "react-icons/io5";
-
+import React from "react";
+import * as AiIcons from "react-icons/ai";
+import * as BoxIcons from "react-icons/bi";
+import * as MDIcons from "react-icons/md";
+import * as BSIcons from "react-icons/bs";
 
 
 const SidebarData = [
-    //Here is where we will have as many sidebar items as we need
-    {
-        title: "Home",
-        path: "/",
-        icon:<AiIcons.AiFillHome/>,
-        className: "nav-text"
+  //Here is where we will have as many sidebar items as we need
+  {
+    title: "Home",
+    path: "/",
+    icon: <AiIcons.AiFillHome />,
+    className: "nav-text",
+  },
+  {
+    title: "Movies",
+    path: "/movies",
+    icon: <BoxIcons.BiMoviePlay />,
+    className: "nav-text",
+  },
+  {
+    title: "Reviews",
+    path: "/reviews",
+    icon: <MDIcons.MdReviews />,
+    className: "nav-text",
+  },
+  {
+    title: "Frequently Asked Questions",
+    path: "/frequentlyAskedQuestions",
+    icon: <BSIcons.BsFillQuestionSquareFill />,
+    className: "nav-text",
+  },
+];
 
-    },
-    {
-        title: "Movies",
-        path: "/movies",
-        icon:<IoIcons.BiMoviePlay/>,
-        className: "nav-text"
-
-    },  
-    {
-        title: "Reviews",
-        path: "/reviews",
-        icon:<IoIcons.MdReviews/>,
-        className: "nav-text"
-
-    },
-    {
-        title: "Frequently Asked Questions",
-        path: "/frequentlyAskedQuestions",
-        icon:<IoIcons.BsFillQuestionSquareFill/>,
-        className: "nav-text"
-
-    },
-]
-
-export default SidebarData
+export default SidebarData;

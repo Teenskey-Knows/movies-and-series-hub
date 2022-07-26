@@ -2,6 +2,8 @@ import React,{useState}from 'react'
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import {Link} from "react-router-dom"
+import SidebarData from "./SidebarData"
+import  "../../src/components/Navbar"
 
 function Navbar() {
 
@@ -21,6 +23,11 @@ function Navbar() {
             <Link to='#' className="menu-bars"><AiIcons.AiOutlineClose/></Link>
         </li>
     </ul>
+    {SidebarData.map((item,index)=>{
+      return (
+        <li key={index} className={item.className}><Link to={item.path}><span>{item.title}</span></Link></li>
+      )
+    })}
   </nav>
   </>
   )
