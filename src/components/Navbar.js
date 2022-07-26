@@ -18,7 +18,7 @@ function Navbar() {
     //so we're setting our sidebar to reverse state(to true)
   return (
   <>
-  <IconContext.Provider value={{color: "red"
+  <IconContext.Provider value={{color: "#0AF8DB"
   }}>
 
   <div className="navbar">
