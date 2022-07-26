@@ -1,9 +1,3 @@
-html,
-body {
-  margin: 0px;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -12,9 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(211, 207, 207);
-  height: 100vh;
-  width: 100vw;
+
 }
 
 code {
@@ -22,19 +14,4 @@ code {
     monospace;
 }
 
-.background {
-  background-color: rgb(206, 159, 4);
-  display: grid;
-  grid-template-columns: repeat(4, 100px);
-  gap: 3rem;
-  height: 100vh;
-  margin-right: 10rem;
-  margin-left: 10rem;
-}
 
-#card {
-  background-color: blue;
-  height: 15rem;
-  width: 12rem;
-  margin: 3rem;
-}

@@ -1,14 +1,9 @@
-import React from "react"
-// import Body from "./components/Body"
-import Card from "./components/Card"
+import React from "react";
 
-
-
-function App(){
-  return(
-    <div>
-     
-    </div>
-  )
+function App() {
+  return (
+  <div></div>
+    
+  );
 }
 export default App;
