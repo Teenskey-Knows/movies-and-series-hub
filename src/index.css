@@ -50,3 +50,52 @@ code {
   justify-content: center;
   color: #0af8db;
 }
+
+.stayAcquaintedPart{
+  background-color: black;
+  height: 20rem;
+
+}
+
+.stayAcquaintedContainer{
+  display: flex;
+  font-display: column;
+  gap: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  
+}
+/* .stayAcquaintedContainer img .stayAImage{
+ border-radius: ;
+} */
+.h1SAW1{
+  color:  #e203b1;
+}
+
+.h2SAW{
+  color: #0af8db;
+
+}
+.activelyContributePart{
+  background-color: rgb(21, 3, 3);
+  height: 25rem;
+}
+.activelyContributeContainer{
+  display: flex;
+  gap: 15rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+
+}
+
+.ACW1{
+  color: #e203b1;
+}
+.ACW{
+  color: #0af8db;
+}
+
+.AContributeImage{
+  border-radius: 5rem;
+}
