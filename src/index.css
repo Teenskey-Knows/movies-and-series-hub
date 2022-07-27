@@ -111,32 +111,107 @@ code {
   color: #0af8db;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin-top: 1rem;
 
 }
 .moviesHeaderBackground{
-  background-color: #110101;
+  background-color: #000000;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .moviesBackground{
-  background-color: #da1515;
+  background-color: #edc00f;
   height: 40rem;
   display: grid;
   grid-template-columns: 70% 1% 29%;
 }
 .renderMovies{
-  background-color:#000000;
+  background-color:#1f1e1e;
+  display: flex;
+  justify-content: center;
 
 }
 .innerMovieCard{
-  background-color:rgb(29, 20, 20);
+  background-color:rgb(0, 0, 0);
   border-radius: 3rem;
   height: 40rem;
-  width: 55rem;
-  margin: 5rem 5rem 5rem 5rem;
+  width: 65rem;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+
+}
+.flexWrapMdetails{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100px;
 }
 .spacer{
-  background-color: #1a0505;
+  background-color: #000000;
 }
 .renderForm{
+  background-color: #1f1e1e;
+  display: flex;
+  justify-content: center;
+}
+.addPoemForm{
   background-color: #000000;
+  height: 40rem;
+  width: 25rem;
+  margin-top: 4rem;
+  border-radius: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+.movieForm{
+  margin-top: 3rem;
+
+}
+label{
+  color: #e203b1;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 1.5rem;
+}
+input{
+  background-color: #0af8db;
+}
+textarea{
+  background-color: #0af8db;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input[type=url] {
+  width: 90%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 90%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.submitMovie{
+  padding: 9px;
+  background-color: #0af8db;
+}
+.submitMovie:hover{
+  background-color: #d912ae;
+  transition: 850ms;
+  cursor: default;
 }
