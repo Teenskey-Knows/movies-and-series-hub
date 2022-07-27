@@ -52,6 +52,8 @@ function Home() {
             </div>
           </div>
         </div>
+        <div className="separator"></div>
+        
 
 
       </div>

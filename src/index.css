@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -14,8 +19,7 @@ code {
 
 .home {
   background-color: black;
-  height: 685px;
-  width: 100vw;
+  height: 30rem;
 }
 .h1 {
   color: #0af8db;
@@ -27,7 +31,6 @@ code {
 .separator {
   background-color: #d912ae;
   height: 2rem;
-  width: 100vw;
 }
 .backImage {
   background-repeat: no-repeat;
@@ -98,4 +101,42 @@ code {
 
 .AContributeImage{
   border-radius: 5rem;
+}
+
+
+/* ============================================ */
+              /* MOVIES AND TV SHOWS COMPONENT */
+/* ============================================== */
+.movieHeader{
+  color: #0af8db;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+}
+.moviesHeaderBackground{
+  background-color: #110101;
+}
+.moviesBackground{
+  background-color: #da1515;
+  height: 40rem;
+  display: grid;
+  grid-template-columns: 70% 1% 29%;
+}
+.renderMovies{
+  background-color:#000000;
+
+}
+.innerMovieCard{
+  background-color:rgb(29, 20, 20);
+  border-radius: 3rem;
+  height: 40rem;
+  width: 55rem;
+  margin: 5rem 5rem 5rem 5rem;
+}
+.spacer{
+  background-color: #1a0505;
+}
+.renderForm{
+  background-color: #000000;
 }
