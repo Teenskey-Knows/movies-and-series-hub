@@ -116,14 +116,14 @@ code {
 }
 .moviesHeaderBackground{
   background-color: #000000;
-  height: 4rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .moviesBackground{
   background-color: #edc00f;
-  height: 40rem;
+  height: auto;
   display: grid;
   grid-template-columns: 70% 1% 29%;
 }
@@ -136,13 +136,45 @@ code {
 .innerMovieCard{
   background-color:rgb(0, 0, 0);
   border-radius: 3rem;
-  height: 40rem;
+  height: auto;
   width: 65rem;
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+  gap: 1rem 0rem 1rem 0rem;
 
+}
+
+.allMovieDescription{
+  background-color: #1b1a1a;
+  padding: 1rem;
+  border-radius: 3rem;
+  margin-right: 1rem;
+}
+.imageDetails{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem;
+}
+.imageDetails span {
+  color: #0af8db;
+}
+.imageDetails .movieName{
+  color: #e203b1;
+}
+
+.imageDetails .movieDescription{
+  color: #e203b1;
+}
+
+.imageDetails .movieGenre{
+  color: #e203b1;
+}
+
+
+.imageDetails .movieRating{
+  color: #e203b1;
 }
 .flexWrapMdetails{
   display: flex;

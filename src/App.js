@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect}from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../src/Pages/Home"
@@ -7,7 +7,22 @@ import Reviews from "../src/Pages/Reviews"
 import FrequentlyAsked from "./Pages/FrequentlyAsked";
 
 
+const url = "http://localhost:3000/movies"
+
 function App() {
+
+  // const [movies,setMovies] = useState([])
+
+  const myMovies = ()=>{
+    fetch(url)
+    .then((response)=>response.json())
+    .then((movies)=>console.log(movies)
+   )
+  }
+  
+  
+  useEffect(myMovies,[])
+
   return (
     <Router>
       <div>
