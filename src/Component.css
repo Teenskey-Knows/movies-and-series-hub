@@ -17,3 +17,39 @@ padding: 1rem;
 width: 271px;
 border-radius: 1rem;
 }
+
+.h1Name{
+    color: #0af8db ;
+    font-size: 1.2rem;
+}
+.h1Name span{
+    color: black;
+    font-size: 1.4rem;
+}
+.h2Genre{
+    color: #0af8db;
+    font-size: 1.2rem;
+
+}
+.h2Genre span{
+    color: black;
+    font-size: 1.4rem;
+}
+.h2Rating{
+    color: #0af8db;
+    font-size: 1.2rem;
+}
+.h2Rating span{
+    color: black;
+    font-size: 1.4rem;
+}
+.pDescription{
+    color: #0af8db;
+    
+}
+.pDescription span{
+    color: black;
+    font-size: 1.3rem;
+    
+}
+

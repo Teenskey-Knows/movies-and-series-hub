@@ -14,7 +14,16 @@ const url = "http://localhost:3000/movies";
 function App() {
 
   const [movies, setMovies] = useState([]);
+  const [readMore,setReadMore]= useState(true)
 
+  function myToggle(){
+    setReadMore(!readMore)
+  }
+  // const [isReadMore,setReadMore]=useState(false)
+
+// const toggleBtn =()=>{
+//   setReadMore(prevState => !prevState)
+// }
   const myMovies = () => {
     fetch(url)
       .then((response) => response.json())
@@ -32,10 +41,14 @@ function App() {
        <div>
       <a href={movie.url} target="blank"><img src={movie.image} alt={movie.name} height={400} /></a>
       <div className="movieDetails">
-      <h1>Name: {movie.name}</h1>
-      <h2>Genre:{movie.genre}</h2>
-      <p><strong>Description: </strong><br/>{movie.description}</p>
-      <h2>Rating: {movie.rating}</h2>
+      <h1 className="h1Name"><span>Name:</span> <br />{movie.name}</h1>
+      <h2 className="h2Genre"><span>Genre:</span><br />{movie.genre}</h2>
+     
+      <h2 className="h2Rating"><span><span>Rating:</span></span> <br />{movie.rating}</h2>
+      <p className="pDescription"><span>Description: </span><br />
+      {readMore ? movie.description.slice(0,200) : movie.description}
+      <button onClick={myToggle}>{readMore? "Read More": "Read Less"}</button>
+      </p>
          
 
       </div>

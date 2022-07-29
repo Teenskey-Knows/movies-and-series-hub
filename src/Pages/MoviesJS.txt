@@ -124,3 +124,9 @@ function Movies({series}) {
 
 export default Movies;
 
+
+
+
+ <p><strong>Description: </strong><br/>
+      {/* {isReadMore ? movie.description : movie.description.substr(0,200)  } */}
+       {/* <button onClick={toggleBtn}>{isReadMore ? "Read Less": "Read More"}</button> </p> */}</p>

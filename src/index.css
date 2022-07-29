@@ -271,16 +271,31 @@ h1{
   color:white;
 }
 
+.moviesComponentHeader{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding:1rem ;
+}
+.componentHeader{
+  color: #0af8db;
+}
+
 .larger{
   height: auto;
   background-color: #201f1f;
 }
 
+.smallerLarger{
+  background-color: #201f1f;
+  width: 70%;
+}
+
 
 .display{
-  display: flex;
+  display: grid;
   grid-template-columns: auto auto auto;
   gap: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   
 }

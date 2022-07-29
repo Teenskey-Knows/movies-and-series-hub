@@ -29,6 +29,36 @@
         "genre": "Music-Drama",
         "rating": 6.2,
         "url":"https://fmovies.to/series/rebelde-703oj/1-1"
+      },
+      {
+        "id": 4,
+        "image":"https://static.bunnycdn.ru/i/cache/images/8/82/82b2c86f13ed2094685a7761bbac84a2.jpg-w380",
+        "name": "Paper Girls",
+        "description": "A few hours after 1988 Halloween night, four 12-year old girls have to face a mission. Trapped in a complicated conflict, they will travel in time to save the world."
+        ,
+        "genre": "MusicDrama, Fantasy, Horror",
+        "rating": "?",
+        "url":"https://fmovies.to/series/paper-girls-ro6qq/1-1"
+      },
+      {
+        "id": 5,
+        "image":"https://static.bunnycdn.ru/i/cache/images/d/db/db15a1504783f1f7945f4302154ea203.jpg-w380",
+        "name": "Love in Paradise",
+        "description": "Four couples who found love in the Caribbean and are hopeful their relationships will continue, despite the miles and drama between them."
+        ,
+        "genre": "Reality-TV, Documentary",
+        "rating": 5.80,
+        "url":"https://fmovies.to/series/love-in-paradise-the-caribbean-a-90-day-story-60yzp/1-1"
+      },
+      {
+        "id": 6,
+        "image":"https://static.bunnycdn.ru/i/cache/images/c/c0/c04aef7039f5e2494caa8161f0f5fbef.jpg-w380",
+        "name": "Surface",
+        "description": "A woman's quest to rebuild her life after a suicide attempt, and her struggle to understand all the things that led up to that moment."
+        ,
+        "genre": "Music",
+        "rating": "?",
+        "url":"https://fmovies.to/series/surface-kx1j9/1-1"
       }
      
 
