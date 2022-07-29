@@ -1,78 +1,59 @@
 import React from "react";
-import pic3 from "../Images/pic3.jpg";
 
-function Movies() {
+
+console.log("Movies component")
+
+function Movies({name,image,genre,description,url,rating}) {
+  
+
+
   return (
     <>
-      <div className="moviesHeaderBackground">
+    <div className="entireMoviesBackground">
+      <div className="moviesHeader">
+        <h1 className="headerH1">Movies & TV Shows</h1>
+      </div>
+      <br />
+      <div className="largerMovieHolder">
+        <h1>{name}</h1>
+        <img src={image} alt="" />
+        <p>{description}</p>
+
+      </div>
+    </div>
+      {/* <div className="moviesHeaderBackground">
         <h1 className="movieHeader">Movies & TV Shows</h1>
       </div>
       <div className="moviesBackground">
         <div className="renderMovies" style={{ color: "white" }}>
-          <div className="innerMovieCard">
+          <div className="innerMovieCard"> */}
             {/* =================================================== */}
                   {/* Movie Rendering Starts here */}
           {/* =================================================== */}
 
 
-            <div className="imageDetails">
+            {/* <div className="imageDetails">
              
               <div className="allMovieDescription">
               <a href="https://www.imdb.com/title/tt21064272/" target="blank"><img src={pic3} height="200" alt="" /></a>
-                <p className="movieName"><span><strong>Name:</strong></span>Machine Gun Kelly</p>
-                <p className="movieGenre"> <span><strong>Genre:</strong></span> Music</p>
+                <p className="movieName"><span><strong>Name:</strong></span>{name}</p>
+                <p className="movieGenre"> <span><strong>Genre:</strong></span> {genre}</p>
                 <p className="movieDescription">
                   <span>
                     <strong>Description:</strong></span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, repellendus voluptatum in placeat cupiditate sint consequuntur similique ad saepe consequatur amet expedita voluptate eaque officiis recusandae vitae maxime veniam tenetur, libero, consectetur magnam illum! Omnis et mollitia ex commodi sapiente aliquam adipisci at, tempora quas possimus nisi? In debitis exercitationem asperiores nihil quibusdam, voluptatum nisi adipisci voluptatem deserunt aspernatur repellat?
+               {description}
                 </p>
                 <p className="movieRating">
-                 <span><strong>Rating</strong></span> <strong>8.8</strong>
+                 <span><strong>Rating</strong></span> <strong>{rating}</strong>
                 </p>
                 </div>
-            </div>
+            </div> */}
             {/* ================= */}
 
 
 
 
 
-            <div className="imageDetails">
-             
-             <div className="allMovieDescription">
-             <a href="https://www.imdb.com/title/tt21064272/" target="blank"><img src={pic3} height="200" alt="" /></a>
-               <p className="movieName"><span><strong>Name:</strong></span>Machine Gun Kelly</p>
-               <p className="movieGenre"> <span><strong>Genre:</strong></span> Music</p>
-               <p className="movieDescription">
-                 <span>
-                   <strong>Description:</strong></span>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, repellendus voluptatum in placeat cupiditate sint consequuntur similique ad saepe consequatur amet expedita voluptate eaque officiis recusandae vitae maxime veniam tenetur, libero, consectetur magnam illum! Omnis et mollitia ex commodi sapiente aliquam adipisci at, tempora quas possimus nisi? In debitis exercitationem asperiores nihil quibusdam, voluptatum nisi adipisci voluptatem deserunt aspernatur repellat?
-               </p>
-               <p className="movieRating">
-                <span><strong>Rating</strong></span> <strong>8.8</strong>
-               </p>
-               </div>
-           </div>
-
-
-
-           <div className="imageDetails">
-             
-             <div className="allMovieDescription">
-             <a href="https://www.imdb.com/title/tt21064272/" target="blank"><img src={pic3} height="200" alt="" /></a>
-               <p className="movieName"><span><strong>Name:</strong></span>Machine Gun Kelly</p>
-               <p className="movieGenre"> <span><strong>Genre:</strong></span> Music</p>
-               <p className="movieDescription">
-                 <span>
-                   <strong>Description:</strong></span>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, repellendus voluptatum in placeat cupiditate sint consequuntur similique ad saepe consequatur amet expedita voluptate eaque officiis recusandae vitae maxime veniam tenetur, libero, consectetur magnam illum! Omnis et mollitia ex commodi sapiente aliquam adipisci at, tempora quas possimus nisi? In debitis exercitationem asperiores nihil quibusdam, voluptatum nisi adipisci voluptatem deserunt aspernatur repellat?
-               </p>
-               <p className="movieRating">
-                <span><strong>Rating</strong></span><strong>8.8</strong>
-               </p>
-               </div>
-           </div>
-            
 
 
 
@@ -86,7 +67,7 @@ function Movies() {
 
 
             
-          </div>
+          {/* </div>
         </div>
         <div className="spacer" style={{ color: "white" }}></div>
         <div className="renderForm" style={{ color: "blue" }}>
@@ -137,7 +118,7 @@ function Movies() {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

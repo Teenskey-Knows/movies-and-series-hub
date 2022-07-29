@@ -107,7 +107,7 @@ code {
 /* ============================================ */
               /* MOVIES AND TV SHOWS COMPONENT */
 /* ============================================== */
-.movieHeader{
+/* .movieHeader{
   color: #0af8db;
   display: flex;
   justify-content: center;
@@ -246,4 +246,27 @@ input[type=number] {
   background-color: #d912ae;
   transition: 850ms;
   cursor: default;
+} */
+
+.entireMoviesBackground{
+  background-color: rgb(31, 31, 31);
+  height: 60rem;
+}
+.moviesHeader{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.headerH1{
+  color: #0af8db;
+}
+.largerMovieHolder{
+  background-color: black;
+  width: 65%;
+  height: 50rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+h1{
+  color:white;
 }

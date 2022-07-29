@@ -2,10 +2,14 @@ import React from "react";
 import pic from "../Images/mypic.jpg"
 import pic2 from "../Images/pic2.jpg"
 
+
 function Home() {
+console.log("Home")
   return (
     <>
+    
       <div className="home">
+      
         <br />
         <h1 className="h1">Daniel Movie Hub</h1>
       </div>
