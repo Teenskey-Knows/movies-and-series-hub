@@ -270,3 +270,17 @@ input[type=number] {
 h1{
   color:white;
 }
+
+.larger{
+  height: auto;
+  background-color: #201f1f;
+}
+
+
+.display{
+  display: flex;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  margin-left: 1rem;
+  
+}

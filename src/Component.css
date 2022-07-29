@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movieHolder{
+    background-color: rgb(0, 0, 0);
+    width: 20rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    
+}
+.movieDetails{
+background-color: blueviolet;
+padding: 1rem;
+width: 271px;
+border-radius: 1rem;
+}

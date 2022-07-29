@@ -3,10 +3,13 @@ import pic from "../Images/mypic.jpg"
 import pic2 from "../Images/pic2.jpg"
 
 
+
 function Home() {
-console.log("Home")
+
+
   return (
     <>
+    
     
       <div className="home">
       
