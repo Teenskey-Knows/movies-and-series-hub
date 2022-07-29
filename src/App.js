@@ -16,6 +16,8 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [readMore,setReadMore]= useState(true)
 
+
+
   function myToggle(){
     setReadMore(!readMore)
   }
@@ -57,6 +59,13 @@ function App() {
      )
   })
 
+
+
+    //function for adding my movies
+    function addingMovies(newMovies){
+      const updatedMovies = [...movies,newMovies]
+      setMovies(updatedMovies)
+    }
   
 
   return (
@@ -68,7 +77,7 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/movies" element={<Movies series={series}/>}></Route>
+          <Route exact path="/movies" element={<Movies series={series} onAddMovies={addingMovies}/>}></Route>
           <Route exact path="/reviews" element={<Reviews/>}></Route>
           <Route exact path="/frequentlyAskedQuestions" element={<FrequentlyAsked/>}></Route>
 
