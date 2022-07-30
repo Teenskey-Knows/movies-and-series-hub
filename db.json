@@ -1,66 +1,58 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "image":"https://bit.ly/3zdMEH3",
-        "name": "Machine Gun Kelly",
-        "description": "A riveting four-part docuseries chronicling the untold story behind the rise and fall of Menudo, the most iconic Latin American boy band in history."
-        ,
-        "genre": "Music",
-        "rating": 6.6,
-        "url":"https://fmovies.to/movie/machine-gun-kellys-life-in-pink-0mylr"
-      },
-      {
-        "id": 2,
-        "image":"https://bit.ly/3vhBccn",
-        "name": "Elvis",
-        "description": "The film explores the life and music of Elvis Presley (Austin Butler), seen through the prism of his complicated relationship with his enigmatic manager, Colonel Tom Parker (Tom Hanks). The story delves into the complex dynamic between Presley and Parker spanning over 20 years, from Presley's rise to fame to his unprecedented stardom, against the backdrop of the evolving cultural landscape and loss of innocence in America. Central to that journey is one of the most significant and influential people in Elvis's life, Priscilla Presley (Olivia DeJonge)."
-        ,
-        "genre": "Music",
-        "rating": 6.8,
-        "url":"https://fmovies.to/movie/elvis-8279y"
-      },
-      {
-        "id": 3,
-        "image":"https://bit.ly/3Q2kgOQ",
-        "name": "Rebelde",
-        "description": "Welcome to the EWS, the prestigious boarding school where the bumpy road to stardom isn't for the faint of heart. Rebelde is the reboot of the beloved teen soap opera that spawned separate telenovelas in Argentina and Mexico in the early 2000s. Under the direction of Santiago Limón and Yibran Asaud, Rebelde develops within the hallways of Elite Way School, with a new generation of students, storylines and characters, (plus a few familiar ones that longtime fans will recognize). Over the course of eight episodes, Rebelde follows a group of students who are doing their best to win EWS' Battle of the Bands, the key musical contest for them to succeed at the beginning of their musical careers. Along the way, love and friendship bloom between them while a mysterious secret society casts a shadow over their dreams of becoming the next big music star."
-        ,
-        "genre": "Music-Drama",
-        "rating": 6.2,
-        "url":"https://fmovies.to/series/rebelde-703oj/1-1"
-      },
-      {
-        "id": 4,
-        "image":"https://static.bunnycdn.ru/i/cache/images/8/82/82b2c86f13ed2094685a7761bbac84a2.jpg-w380",
-        "name": "Paper Girls",
-        "description": "A few hours after 1988 Halloween night, four 12-year old girls have to face a mission. Trapped in a complicated conflict, they will travel in time to save the world."
-        ,
-        "genre": "MusicDrama, Fantasy, Horror",
-        "rating": "?",
-        "url":"https://fmovies.to/series/paper-girls-ro6qq/1-1"
-      },
-      {
-        "id": 5,
-        "image":"https://static.bunnycdn.ru/i/cache/images/d/db/db15a1504783f1f7945f4302154ea203.jpg-w380",
-        "name": "Love in Paradise",
-        "description": "Four couples who found love in the Caribbean and are hopeful their relationships will continue, despite the miles and drama between them."
-        ,
-        "genre": "Reality-TV, Documentary",
-        "rating": 5.80,
-        "url":"https://fmovies.to/series/love-in-paradise-the-caribbean-a-90-day-story-60yzp/1-1"
-      },
-      {
-        "id": 6,
-        "image":"https://static.bunnycdn.ru/i/cache/images/c/c0/c04aef7039f5e2494caa8161f0f5fbef.jpg-w380",
-        "name": "Surface",
-        "description": "A woman's quest to rebuild her life after a suicide attempt, and her struggle to understand all the things that led up to that moment."
-        ,
-        "genre": "Music",
-        "rating": "?",
-        "url":"https://fmovies.to/series/surface-kx1j9/1-1"
-      }
-     
-
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "image": "https://bit.ly/3zdMEH3",
+      "name": "Machine Gun Kelly",
+      "description": "A riveting four-part docuseries chronicling the untold story behind the rise and fall of Menudo, the most iconic Latin American boy band in history.",
+      "genre": "Music",
+      "rating": 6.6,
+      "url": "https://fmovies.to/movie/machine-gun-kellys-life-in-pink-0mylr"
+    },
+    {
+      "id": 2,
+      "image": "https://bit.ly/3vhBccn",
+      "name": "Elvis",
+      "description": "The film explores the life and music of Elvis Presley (Austin Butler), seen through the prism of his complicated relationship with his enigmatic manager, Colonel Tom Parker (Tom Hanks). The story delves into the complex dynamic between Presley and Parker spanning over 20 years, from Presley's rise to fame to his unprecedented stardom, against the backdrop of the evolving cultural landscape and loss of innocence in America. Central to that journey is one of the most significant and influential people in Elvis's life, Priscilla Presley (Olivia DeJonge).",
+      "genre": "Music",
+      "rating": 6.8,
+      "url": "https://fmovies.to/movie/elvis-8279y"
+    },
+    {
+      "id": 3,
+      "image": "https://bit.ly/3Q2kgOQ",
+      "name": "Rebelde",
+      "description": "Welcome to the EWS, the prestigious boarding school where the bumpy road to stardom isn't for the faint of heart. Rebelde is the reboot of the beloved teen soap opera that spawned separate telenovelas in Argentina and Mexico in the early 2000s. Under the direction of Santiago Limón and Yibran Asaud, Rebelde develops within the hallways of Elite Way School, with a new generation of students, storylines and characters, (plus a few familiar ones that longtime fans will recognize). Over the course of eight episodes, Rebelde follows a group of students who are doing their best to win EWS' Battle of the Bands, the key musical contest for them to succeed at the beginning of their musical careers. Along the way, love and friendship bloom between them while a mysterious secret society casts a shadow over their dreams of becoming the next big music star.",
+      "genre": "Music-Drama",
+      "rating": 6.2,
+      "url": "https://fmovies.to/series/rebelde-703oj/1-1"
+    },
+    {
+      "id": 4,
+      "image": "https://static.bunnycdn.ru/i/cache/images/8/82/82b2c86f13ed2094685a7761bbac84a2.jpg-w380",
+      "name": "Paper Girls",
+      "description": "A few hours after 1988 Halloween night, four 12-year old girls have to face a mission. Trapped in a complicated conflict, they will travel in time to save the world.",
+      "genre": "MusicDrama, Fantasy, Horror",
+      "rating": "?",
+      "url": "https://fmovies.to/series/paper-girls-ro6qq/1-1"
+    },
+    {
+      "id": 5,
+      "image": "https://static.bunnycdn.ru/i/cache/images/d/db/db15a1504783f1f7945f4302154ea203.jpg-w380",
+      "name": "Love in Paradise",
+      "description": "Four couples who found love in the Caribbean and are hopeful their relationships will continue, despite the miles and drama between them.",
+      "genre": "Reality-TV, Documentary",
+      "rating": 5.8,
+      "url": "https://fmovies.to/series/love-in-paradise-the-caribbean-a-90-day-story-60yzp/1-1"
+    },
+    {
+      "id": 6,
+      "image": "https://static.bunnycdn.ru/i/cache/images/c/c0/c04aef7039f5e2494caa8161f0f5fbef.jpg-w380",
+      "name": "Surface",
+      "description": "A woman's quest to rebuild her life after a suicide attempt, and her struggle to understand all the things that led up to that moment.",
+      "genre": "Music",
+      "rating": "?",
+      "url": "https://fmovies.to/series/surface-kx1j9/1-1"
+    }
+  ]
+}
