@@ -53,6 +53,33 @@
       "genre": "Music",
       "rating": "?",
       "url": "https://fmovies.to/series/surface-kx1j9/1-1"
+    },
+    {
+      "image": "https://static.bunnycdn.ru/i/cache/images/4/43/4385b5d71a48d217f6b25e9d27be289b.jpg-w380",
+      "name": " The Marked Heart",
+      "description": " Simón's wife is killed to extract her heart and transplant it to Camila, the wife of a wealthy man. Seeking revenge, Simón plunges into the dangerous world of organ trafficking. In the frantic search for him, fate will make him fall in love with Cam",
+      "genre": " Thriller",
+      "rating": "6.40",
+      "url": " ",
+      "id": 7
+    },
+    {
+      "image": "https://static.bunnycdn.ru/i/cache/images/2/24/2419820910022133a6ea5c4e47297846.jpg-w380",
+      "name": " Secrets of Summer",
+      "description": " A remote Argentine resort revives its wakeboarding competition, drawing in Mexican athlete Steffi, who is determined to uncover a family secret.",
+      "genre": " Drama, Thriller",
+      "rating": "6.10",
+      "url": " ",
+      "id": 8
+    },
+    {
+      "image": "https://static.bunnycdn.ru/i/cache/images/c/c7/c74a652dbb95eb55e1ebb5883dba40a2.jpg-w380",
+      "name": "Dark Web",
+      "description": " The Dark Web is the large part of the Internet that is inaccessible to conventional search engines. Experts estimate that search engines crawl and index less than 1% of all the content that can be accessed over the Internet. A young YouTuber, \"Ludov",
+      "genre": " Thriller",
+      "rating": "3.70",
+      "url": " ",
+      "id": 9
     }
   ]
 }
