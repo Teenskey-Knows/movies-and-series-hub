@@ -18,6 +18,7 @@ function Navbar() {
     //so we're setting our sidebar to reverse state(to true)
   return (
   <>
+  <h1>rello</h1>
   <IconContext.Provider value={{color: "#0AF8DB"
   }}>
 
