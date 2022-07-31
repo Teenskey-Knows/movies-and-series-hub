@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/movies-and-series-hub/static/css/main.396af381.css",
-    "main.js": "/movies-and-series-hub/static/js/main.0393ef8f.js",
+    "main.css": "/movies-and-series-hub/static/css/main.bcd62fdc.css",
+    "main.js": "/movies-and-series-hub/static/js/main.cf48e7f8.js",
     "static/js/787.bbe01249.chunk.js": "/movies-and-series-hub/static/js/787.bbe01249.chunk.js",
     "static/media/Dan.png": "/movies-and-series-hub/static/media/Dan.34beb5e75ba8c705bad3.png",
     "static/media/pic2.jpg": "/movies-and-series-hub/static/media/pic2.e68151b475dec745859b.jpg",
     "static/media/backImage.jpg": "/movies-and-series-hub/static/media/backImage.7f716c46162fbd6e7ff7.jpg",
     "static/media/mypic.jpg": "/movies-and-series-hub/static/media/mypic.a3d55d1c80300d179aa6.jpg",
     "index.html": "/movies-and-series-hub/index.html",
-    "main.396af381.css.map": "/movies-and-series-hub/static/css/main.396af381.css.map",
-    "main.0393ef8f.js.map": "/movies-and-series-hub/static/js/main.0393ef8f.js.map",
+    "main.bcd62fdc.css.map": "/movies-and-series-hub/static/css/main.bcd62fdc.css.map",
+    "main.cf48e7f8.js.map": "/movies-and-series-hub/static/js/main.cf48e7f8.js.map",
     "787.bbe01249.chunk.js.map": "/movies-and-series-hub/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.396af381.css",
-    "static/js/main.0393ef8f.js"
+    "static/css/main.bcd62fdc.css",
+    "static/js/main.cf48e7f8.js"
   ]
 }
