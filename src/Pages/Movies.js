@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const url = "http://localhost:3000/movies";
+const url = "https://movies-and-series-hub1.herokuapp.com/movies";
 
 function Movies({ series, onAddMovies }) {
   const [formData, setFormData] = useState({

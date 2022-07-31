@@ -8,7 +8,8 @@ import FrequentlyAsked from "./Pages/FrequentlyAsked";
 import Home from "../src/Home/Home";
 import "../src/Component.css"
 
-const url = "http://localhost:3000/movies";
+// const url = "http://localhost:3000/movies";
+const url = "https://movies-and-series-hub1.herokuapp.com/movies"
 
 
 function App() {
