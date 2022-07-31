@@ -20,9 +20,7 @@ Daniel Movie Hub is movie website that allows users to know the trending TV show
 
 
 
-## Live Demo on
 
-[Youtube Video](https://youtu.be/pjMLm8xdYA0)
 
 ## Table of Content
 
