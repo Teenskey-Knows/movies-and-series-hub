@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# Daniel Movie Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Daniel Movie Hub is movie website that allows users to know the trending TV shows depending on their ratings and other users' recommendations. As a user you can post a recommendation for others to watch by giving a description of the movie.
 
-## Available Scripts
+### By Daniel Obare Okebiro, 31/07/2022
 
-In the project directory, you can run:
+## Landing Page
 
-### `npm start`
+![image](./src/For-ReadMe/LandingPage1.jpg)
+![image](./src/For-ReadMe/LandingPage2.png)
+![image](./src/For-ReadMe/LandingPage4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Movies Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](./src/For-ReadMe/MovieSection.png)
 
-### `npm test`
+## Frequently Asked Questions Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](./src/For-ReadMe/FreqASec.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo on
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Youtube Video](https://youtu.be/pjMLm8xdYA0)
 
-### `npm run eject`
+## Table of Content
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Daniel Movie Hub](#DanielMovieHub)
+  - [Daniel Obare Okebiro, 31/07/2022](#by-daniel-obare-31072022)
+  - [Landing Page](#landing-page)
+  - [Movie Page](#movie-page)
+  - [Frequently Asked Questions Page](#frequently-asked-questions-page)
+ 
+  - [Table of Content](#table-of-content)
+  - [Description](#description)
+  - [Features](#features)
+    - [Requirements](#requirements)
+    - [Installation Process](#installation-process)
+    - [Live Link](#live-link)
+    - [Technology Used](#technology--used)
+  - [Known Bugs](#known-bugs)
+  - [Licence](#licence)
+  - [Author's Details](#authors-details)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Description
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Daniel Movie Hub allows movie enthusiasts land into the website, view a list  of trending movie shows and also recommend one for others, or whichever number they may wish to post.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Go Back to the top](#DanielMovieHub)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+As a user you should be able to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. `View` trending movie shows
+2. `Upload` a recommendation of a movie for others
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Go Back to the top](#DanielMovieHub)
 
-### Advanced Configuration
+### Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Access to a computer, mobile phone or any other garget
+- Internet access
 
-### Deployment
+### Installation Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+- Clone to this repo by running the command : `git@github.com:Thecodingobare/movies-and-series-hub.git`
+- Unzip the downloaded files in a folder of choice.
+- Open the folder with your favorite CLI tool.
+- Run `npm install` on your terminal from inside the root folder of the project
+- Run `node server.js` on your terminal from inside the root folder of the project to run the server
+- The server should run on `http://localhost:3000` by default
+- If the port is busy, kindly feel free to change the port inside the server.js file
+- Once the server is up and running, visit the link `http://localhost:3000` to access the application
+- Note that if you changed the port number, you will have a different port number on the link
+- At this point, you will see the home page
+- Manouvre through the website through the navigation bar on your left.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ***
+
+  [Go Back to the top](#DanielMovieHub)
+
+### Live Link
+
+- Click this [link](https://thecodingobare.github.io/movies-and-series-hub/) to view the live application
+
+---
+
+### Technology Used
+
+- HTML -to develop the structure of the page
+
+- CSS - to style the User Interface
+- NodeJS - To build a RESTful API
+- ReactJS - Building component based UI
+
+
+[Go Back to the top](#DanielMovieHub)
+
+---
+
+## Known Bugs
+
+- When the website first loads, it only shows a white blank page with the top Navbar, so one has to click on the sidebar for the landing Page to load.
+
+---
+
+## Licence
+
+MIT License
+Copyright (c) [2022] [Daniel Obare Okebiro]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Go Back to the top](#DanielMovieHub)
+
+---
+
+

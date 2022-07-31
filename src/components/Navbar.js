@@ -25,7 +25,7 @@ function Navbar() {
 
   <div className="navbar">
    
-    <Link to="#" className="menu-bars"><FaIcons.FaBars onClick={showSidebar}/></Link>
+    <Link to="/" className="menu-bars"><FaIcons.FaBars onClick={showSidebar}/></Link>
     <h1 className='h1h2'>Find the most trending movie shows</h1>
   <div className="imageLink">
     <a href="https://github.com/Thecodingobare" target='blank'><img className="dan" src={Dan} height={50} alt="" />
