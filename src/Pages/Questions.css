@@ -3,4 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.QuestionsContainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+
+}
+.questionsCard{
+    margin-left: 15rem;
+}
+
+/* .question1{
+  background-color: rgb(40, 202, 161);
+} */
+
+.questionBtn1{
+    /* all: unset; */
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 60rem;
+    background-color: rgb(28, 238, 238);
+  
+}
+
+.question1Styling{
+    margin-top: 0.3rem;
+    background-color: rgb(218, 17, 205);
+}
+
+p {
+    padding: 0.3rem;
+}
+
 

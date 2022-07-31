@@ -330,27 +330,26 @@ h1{
 
 /* Review Component */
 
-.backgroundIt{
-  background-color: #000000;
+.Reviewbackground{
+  background-color: #0d0c0c;
   height: 100vh;
   display: flex;
   justify-content: center;
+  
 }
 
-.contentbackground{
-  background-color: #cb0292;
-
-  width: 80%;
+.ReviewbackgroundCentre{
+  background-color: #201f1f;
+  width: 85%;
   
 
 }
 
-.question1{
-  background-color: #2b2b2a;
-  width: 70%;
-  margin-left: 5rem;
+.myH1{
+  margin-top: 3rem;
+  text-align: center;
 }
 
-.one{
-  float: right;
-}
+/* .styleQuestionsComponent{
+  background-color: #d912ae;
+} */
