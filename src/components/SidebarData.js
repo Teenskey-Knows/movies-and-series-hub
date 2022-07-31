@@ -20,17 +20,12 @@ const SidebarData = [
     className: "nav-text",
   },
   {
-    title: "About Us",
-    path: "/reviews",
-    icon: <MDIcons.MdReviews />,
-    className: "nav-text",
-  },
-  {
     title: "Frequently Asked Questions",
-    path: "/frequentlyAskedQuestions",
+    path: "/reviews",
     icon: <BSIcons.BsFillQuestionSquareFill />,
     className: "nav-text",
-  },
+  }
+ 
 ];
 
 export default SidebarData;

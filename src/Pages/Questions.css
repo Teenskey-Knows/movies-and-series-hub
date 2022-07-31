@@ -25,6 +25,11 @@
     background-color: rgb(28, 238, 238);
   
 }
+.questionBtn1:hover{
+    background-color: rgb(255, 0, 230);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 400ms;
+}
 
 .question1Styling{
     margin-top: 0.3rem;

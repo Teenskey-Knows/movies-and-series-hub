@@ -1,8 +1,9 @@
 import React,{useState}from 'react'
+import { FaGlasses } from 'react-icons/fa'
 import "../Pages/Questions.css"
 
 function Questions() {
-    const [question1,setQuestion1]=useState(true)
+    const [question1,setQuestion1]=useState(FaGlasses)
 
 function toggle1(){
     setQuestion1(!question1)

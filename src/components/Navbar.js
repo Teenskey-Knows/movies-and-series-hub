@@ -27,11 +27,15 @@ function Navbar() {
    
     <Link to="#" className="menu-bars"><FaIcons.FaBars onClick={showSidebar}/></Link>
     <h1 className='h1h2'>Find the most trending movie shows</h1>
-  
+  <div className="imageLink">
     <a href="https://github.com/Thecodingobare" target='blank'><img className="dan" src={Dan} height={50} alt="" />
     </a>
+    
+  
+    </div>
     <br />
     Connect with me
+
   </div>
   <nav className={sidebar? "nav-menu active" : "nav-menu"}>
     <ul className="nav-menu-items" onClick={showSidebar}>
