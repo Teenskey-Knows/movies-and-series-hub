@@ -1,5 +1,5 @@
 import React,{useState}from 'react'
-import { FaGlasses } from 'react-icons/fa'
+
 import "../Pages/Questions.css"
 
 function Questions() {
