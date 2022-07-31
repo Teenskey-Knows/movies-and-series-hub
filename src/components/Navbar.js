@@ -4,6 +4,7 @@ import * as AiIcons from "react-icons/ai"
 import {Link} from "react-router-dom"
 import SidebarData from "./SidebarData"
 import { IconContext } from 'react-icons'
+import Dan from "../Images/Dan.png"
 //Allows us to style the icons all at ago
 //=========================================
 
@@ -18,12 +19,19 @@ function Navbar() {
     //so we're setting our sidebar to reverse state(to true)
   return (
   <>
-  <h1>rello</h1>
+  
   <IconContext.Provider value={{color: "#0AF8DB"
   }}>
 
   <div className="navbar">
+   
     <Link to="#" className="menu-bars"><FaIcons.FaBars onClick={showSidebar}/></Link>
+    <h1 className='h1h2'>Find the most trending movie shows</h1>
+  
+    <a href="https://github.com/Thecodingobare" target='blank'><img className="dan" src={Dan} height={50} alt="" />
+    </a>
+    <br />
+    Connect with me
   </div>
   <nav className={sidebar? "nav-menu active" : "nav-menu"}>
     <ul className="nav-menu-items" onClick={showSidebar}>

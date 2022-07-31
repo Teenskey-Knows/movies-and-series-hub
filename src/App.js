@@ -12,6 +12,8 @@ const url = "http://localhost:3000/movies";
 
 
 function App() {
+  // const {id, name, genre,description, rating,image,url} =movies
+  // console.log("Number 1",movies)
 
   const [movies, setMovies] = useState([]);
   const [readMore,setReadMore]= useState(true)
@@ -31,9 +33,19 @@ function App() {
       .then((response) => response.json())
       .then((movies) => setMovies(movies));
   };
+ 
   
+  //Function for handling Delete
+  // function handleDelete(){
+  //   fetch(`url/${id}`,{
+  //     method: "DELETE"
+  //   })
+
+  // }
 
 
+
+  
   useEffect(myMovies, []);
   console.log(movies)
 
@@ -51,6 +63,8 @@ function App() {
       {readMore ? movie.description.slice(0,200) : movie.description}
       <button onClick={myToggle}>{readMore? "Read More": "Read Less"}</button>
       </p>
+      <br />
+     
          
 
       </div>
@@ -58,6 +72,7 @@ function App() {
       </div>
      )
   })
+  
 
 
 

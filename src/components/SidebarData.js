@@ -20,7 +20,7 @@ const SidebarData = [
     className: "nav-text",
   },
   {
-    title: "Reviews",
+    title: "About Us",
     path: "/reviews",
     icon: <MDIcons.MdReviews />,
     className: "nav-text",
