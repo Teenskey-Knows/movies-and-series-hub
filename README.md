@@ -90,11 +90,6 @@ As a user you should be able to:
 
   [Go Back to the top](#DanielMovieHub)
 
-### Live Link
-
-- Click this [link](https://thecodingobare.github.io/movies-and-series-hub/) to view the live application
-
----
 
 ### Technology Used
 
